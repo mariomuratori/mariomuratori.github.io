@@ -3304,6 +3304,7 @@ textarea {
   background-color: #fff;
 }
 .btn.btn-default.btn-framed {
+  background-color: #828930;
   color: #fff;
 }
 .btn.btn-default.btn-framed:hover, .btn.btn-default.btn-framed:active, .btn.btn-default.btn-framed:active:hover, .btn.btn-default.btn-framed:focus {
