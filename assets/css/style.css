@@ -974,6 +974,7 @@ ul.check-marks li:before {
 }
 .background-is-dark .input-group input[type="text"], .background-is-dark .input-group input[type="email"], .background-is-dark .input-group input[type="date"], .background-is-dark .input-group input[type="time"], .background-is-dark .input-group input[type="search"], .background-is-dark .input-group input[type="password"], .background-is-dark .input-group input[type="number"], .background-is-dark .input-group input[type="tel"], .background-is-dark .input-group textarea.form-control, .background-is-dark .form-group input[type="text"], .background-is-dark .form-group input[type="email"], .background-is-dark .form-group input[type="date"], .background-is-dark .form-group input[type="time"], .background-is-dark .form-group input[type="search"], .background-is-dark .form-group input[type="password"], .background-is-dark .form-group input[type="number"], .background-is-dark .form-group input[type="tel"], .background-is-dark .form-group textarea.form-control {
   background-color: #fff;
+	border-radius:8px;
 }
 .background-is-dark .input-group .btn, .background-is-dark .form-group .btn {
   background-color: #fff;
