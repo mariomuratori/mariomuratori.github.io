@@ -3310,7 +3310,7 @@ textarea {
 	border-color:#0000;
 }
 .btn.btn-default.btn-framed:hover, .btn.btn-default.btn-framed:active, .btn.btn-default.btn-framed:active:hover, .btn.btn-default.btn-framed:focus {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #575c1e;
 }
 .btn.btn-default.btn-framed.btn-light-frame {
   border-color: rgba(255, 255, 255, 0.4);
