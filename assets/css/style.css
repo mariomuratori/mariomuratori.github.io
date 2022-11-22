@@ -1046,7 +1046,7 @@ ul.check-marks li:before {
   background-color: #fff;
 }
 .background-wrapper .background-color.background-color-black {
-  background-color: #000;
+  background-color: #33384c;
 }
 
 .bg-transfer {
@@ -1919,6 +1919,7 @@ hr {
   display: block;
   overflow: hidden;
   margin-bottom: 30px;
+  border-radius: 20px;
 }
 .gallery .gallery-item:hover:after {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
