@@ -9,8 +9,8 @@
     <link href="assets/fonts/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="assets/fonts/elegant-fonts.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
@@ -18,12 +18,14 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'><link rel="stylesheet" href="./style.css">
     <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'><link rel="stylesheet" href="./style.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
     <title>Valle Oriente - Grupo Hispano</title>
 
 </head>
 
 <body data-spy="scroll" data-target=".navigation">
+    <!-- Globo de contacto -->
     <ul id="menu" class="mfb-component--br mfb-zoomin" data-mfb-toggle="hover">
         <li class="mfb-component__wrap">
           <a href="#" class="mfb-component__button--main" data-mfb-label="Contáctanos">
@@ -31,7 +33,6 @@
                 <i class="mfb-component__main-icon--active ion-close-round"></i>
               </a>
           <ul class="mfb-component__list">
-            
             <li>
               <a href="#" data-mfb-label="Enviar Email" class="mfb-component__button--child">
                     <i class="mfb-component__child-icon ion-email"></i>
@@ -42,21 +43,16 @@
                     <i class="mfb-component__child-icon ion-ios-telephone"></i>
                   </a>
             </li>
-      
             <li>
               <a href="#" data-mfb-label="Enviar WhatsApp" class="mfb-component__button--child">
                     <i class="mfb-component__child-icon ion-social-whatsapp"></i>
                   </a>
             </li>
-
-            
           </ul>
         </li>
       </ul>
+      <!-- Fin globo de contacto -->
       
-      <!-- build:js mfb.js -->
-      
-      <!-- endbuild -->
       <script>
         var menu = document.getElementById('menu'),
           // demo defaults
@@ -72,26 +68,24 @@
           }, 1);
         }
       </script>
-      <!-- @include ga.html -->
-      <!-- partial -->
-        <script  src="/assets/js/script.js"></script>
+        <script src="/assets/js/script.js"></script>
       
     
-<div class="page-wrapper" id="page-top">
+<div class="page-wrapper" id="inicio">
     <header id="page-header">
         <nav class="navigation background-is-dark">
             <div class="container">
                 <div class="wrapper">
                     <div class="left">
-                        <a href="#" class="brand"><img src="assets/img/logo-valleoriente.png" alt="" height="55px"></a>
+                        <a href="#inicio" class="brand"><img src="assets/img/logo-blanco.png" alt=""></a>
                     </div>
                     <!--end left-->
                     <div class="right">
                         <ul class="nav navigation-links animate">
-                            <li><a href="#page-top" class="scroll">Inicio</a></li>
+                            <li><a href="#inicio" class="scroll">Inicio</a></li>
                             <li><a href="#proyecto" class="scroll">Proyecto</a></li>
                             <li><a href="#plantas" class="scroll">Plantas</a></li>
-                            <div class="btn btn-primary" style="margin-top:14px;border-radius:20px;"  data-toggle="modal" data-target="#myModal">Cotizar</li>
+                            <div class="btn btn-primary" style="margin-top:14px;border-radius:20px;"  data-toggle="modal" data-target="#cotizar">Cotizar</li>
                             </div>
                         </ul>
                         <div class="nav-btn">
@@ -100,24 +94,20 @@
                             <figure></figure>
                         </div>
                     </div>
-                    <!--end right-->
                 </div>
             </div>
-            <!--end container-->
         </nav>
-        <!--end navigation-->
         <div class="hero-section background-is-dark">
             <div class="wrapper">
                 <div class="hero-title">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-7 col-sm-7 animate">
-                                <h1 style="color:#d5d0cc"><b>Vive en un barrio tranquilo y seguro</b></h1>
-                                <p class="width-70" style="font-size: 50px;text-shadow:-5px 3px 3px black;">
-                                    ... A pasos de todo!
-                                </p>
+                                <h1><b>Vida de barrio
+                                    </b></h1>
+                                <h1 style="font-size: 38px;line-height : 0.5px;">En el medio de la ciudad</h2>
+                                    <a href="#" class="brand"><img src="assets/img/logo-valleoriente.png" alt="" height="55px">
                             </div>
-                            <!--end col-md-7-->
                             <div class="col-md-5 col-sm-5 animate">
                                 <form class=" form-has-background-padding" id="form-hero">
                                     <h2>EDIFICIO VALLE ORIENTE</h3>
@@ -134,15 +124,11 @@
                                     <button type="submit" class="btn btn-default btn-framed btn-rounded arrow">Cotiza</button>
                                 </form>
                             </div>
-                            <!--end col-md-5-->
                         </div>
-                        <!--end row-->
                     </div>
-                    <!--end container-->
                 </div>
-                <!--end hero-title-->
             </div>
-            <!--end wrapper-->
+
             <div class="owl-carousel" data-owl-dots="0" data-owl-nav="1" data-owl-autoplay="1" data-owl-loop="1" data-owl-fadeout="1">
                 <div class="hero-slide">
                     <div class="bg-transfer"><img src="assets/img/01.png" alt=""></div>
@@ -160,12 +146,8 @@
                     <div class="bg-transfer"><img src="assets/img/05.png" alt=""></div>
                 </div>
             </div>
-            <!--end owl-carousel-->
         </div>
-        <!--end hero-section-->
     </header>
-    <!--end page-header-->
-
     
 
     <div id="page-content">
@@ -176,7 +158,7 @@
                 <h2>¿Por qué vivir en Valle Oriente?</h2>
                     </div>
                     <div class="col-md-6" style="left:70px;top:6px;">
-                        <a href="https://online.fliphtml5.com/qxfob/pplf/" class="btn btn-rounded btn-primary">DESCARGAR FOLLETO</a>
+                        <a href="https://online.fliphtml5.com/iyuoi/xqfx/?1669032056711" class="btn btn-rounded btn-primary">DESCARGAR FOLLETO</a>
                     </div>
             </div>
         </div>
@@ -184,7 +166,6 @@
                     <div class="blog-slider__wrp swiper-wrapper">
                       <div class="blog-slider__item swiper-slide">
                         <div class="blog-slider__img">
-                          
                           <img src="assets/img/gallery-01.png" alt="">
                         </div>
                         <div class="blog-slider__content">
@@ -194,7 +175,7 @@
                           <h4>Departamentos</h4>
                           <p><b>De 1, 2 y 3 dormitorios</b>, primera planta con jardín, diseñados con una distribución eficiente y terminaciones de alta calidad.
                           </p></div>
-                          <a data-toggle="modal" data-target="#myModal" href="#myModal" class="blog-slider__button">COTIZAR</a>
+                          <a data-toggle="modal" data-target="#cotizar" href="#cotizar" class="blog-slider__button">COTIZAR</a>
                         </div>
                       </div>
                       <div class="blog-slider__item swiper-slide">
@@ -205,7 +186,7 @@
                           <div class="blog-slider__title">SEGURIDAD 24/7</div>
                           <div class="blog-slider__text">Con 3 vías de accesos controladas al sector Ciudad Empresarial, y sistema de seguridad privada, para vivir en un ambiente familiar con la confianza que entrega la vida de barrio.</div>
                          <div class="blog-slider__text"> Además contamos con conserjería y amplia red de seguridad interna</div>
-                            <a data-toggle="modal" data-target="#myModal" href="#myModal" class="blog-slider__button">MÁS INFO</a>
+                            <a data-toggle="modal" data-target="#cotizar" href="#cotizar" class="blog-slider__button">MÁS INFO</a>
                         </div>
                       </div>
                       
@@ -217,25 +198,17 @@
                           <div class="blog-slider__title">VIVE, DISFRUTA Y TRABAJA CERCA</div>
                           <div class="blog-slider__text">Porque el teletrabajo llegó para quedarse, el Edificio Valle Oriente considera espacios para co-work, amplios, luminosos y funcionales.
                         </div>
-                          <a data-toggle="modal" data-target="#myModal" href="#myModal"class="blog-slider__button">QUIERO SABER MÁS</a>
+                          <a data-toggle="modal" data-target="#cotizar" href="#cotizar"class="blog-slider__button">QUIERO SABER MÁS</a>
                         </div>
                       </div>
                       
                     </div>
                     <div class="blog-slider__pagination"></div>
                   </div>
-                  <!-- partial -->
                     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
                   <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script><script  src="./script.js"></script>
-                  
             </div>
-            <!--end container-->
         </div>
-        <!--end block-->
-
-
-   <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
 
 <div class="block background-is-dark">
     <div class="container">
@@ -243,7 +216,6 @@
         <div class="row">
             <div class="col-md-6 col-sm-6">
                 <h3>Vida de barrio, en el medio de la ciudad</h3>
-               
                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="heading1">
@@ -255,13 +227,10 @@
                             <div class="panel-body">
                                 <p>Descubre con Valle Oriente una mejor calidad de vida para ti y tu familia y/o una inversión segura y estable a largo plazo con el aumento en su plusvalía y rentabilidad.
                                 </p><br>
-                                <a data-toggle="modal" data-target="#myModal" href="#myModal" class="btn btn-primary" style="border-radius: 20px;">COTIZA</a>
+                                <a data-toggle="modal" data-target="#cotizar" href="#cotizar" class="btn btn-primary" style="border-radius: 20px;">COTIZA</a>
                             </div>
-                            <!--/ .panel-body-->
                         </div>
-                        <!--/ .panel-collapse-->
                     </div>
-                    <!--/ .panel-->
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="heading2">
                             <h4 class="panel-title">
@@ -275,13 +244,10 @@
                                     Altura deptos. De 2,42 mts.
                                     Terrazas de 1,80 mts de profundidad                                    
                                 </p><br>
-                                <a data-toggle="modal" data-target="#myModal" href="#myModal" class="btn btn-primary" style="border-radius: 20px;">COTIZA</a>
+                                <a data-toggle="modal" data-target="#cotizar" href="#cotizar" class="btn btn-primary" style="border-radius: 20px;">COTIZA</a>
                             </div>
-                            <!--/ .panel-body-->
                         </div>
-                        <!--/ .panel-collapse-->
                     </div>
-                    <!--/ .panel-->
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="heading3">
                             <h4 class="panel-title">
@@ -298,40 +264,28 @@
                                     Porcelanato en terrazas
                                     Pisos vinílicos SPC
                                 </p><br>
-                                <a data-toggle="modal" data-target="#myModal" href="#myModal" class="btn btn-primary" style="border-radius: 20px;">COTIZA</a>
+                                <a data-toggle="modal" data-target="#cotizar" href="#cotizar" class="btn btn-primary" style="border-radius: 20px;">COTIZA</a>
                             </div>
-                            <!--/ .panel-body-->
                         </div>
-                        <!--/ .panel-collapse-->
                     </div>
-                    <!--/ .panel-->
                 </div>
-                <!--/ .panel-group-->
             </div>
-            <!--end col-md-6-->
             <div class="col-md-6 col-sm-6">
                 <div class="owl-carousel one-item-carousel" data-owl-items="1" data-owl-margin="0" data-owl-nav="0" data-owl-dots="1">
                     <img src="assets/img/9pisos.png" alt="">
                     <img src="assets/img/terminaciones.png" alt="">
                     <img src="assets/img/9pisos2.png" alt="">
                 </div>
-                <!--end one-item-carousel-->
             </div>
-            <!--end col-md-6-->
-        </div>
-        <!--end row-->
+           </div>
     </div>
-    <!--end container-->
+    <br><br>
+    <center><a href="https://luftimages.space/Hispano/ValleOriente/Piloto2D2B/Piloto2D2B.html" class="btn btn-primary" style="border-radius: 20px;">VER EN 360° <i class="fa-sharp fa-solid fa-rotate"></i> </a></center>
+        
     <div class="background-wrapper">
         <div class="background-color background-color-black"></div>
     </div>
-    <!--end background-wrapper-->
 </div>
-<!--end block-->
-
-<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-
 
         <div class="block" id="gallery">
             <div class="container" data-scroll-reveal="enter bottom and move 20px">
@@ -344,61 +298,46 @@
                                     <img src="assets/img/StreetView.jpg" alt="">
                                 </div>
                             </a>
-                            <!--end gallery-item-->
                         </div>
-                        <!--end col-md-4-->
                         <div class="col-md-4 col-sm-4">
                             <a href="assets/img/Quincho.jpg" class="gallery-item image-popup">
                                 <div class="image bg-transfer">
                                     <img src="assets/img/Quincho.jpg" alt="">
                                 </div>
                             </a>
-                            <!--end gallery-item-->
                         </div>
-                        <!--end col-md-4-->
                         <div class="col-md-4 col-sm-4">
                             <a href="assets/img/Gimnasio.jpg" class="gallery-item image-popup">
                                 <div class="image bg-transfer">
                                     <img src="assets/img/Gimnasio.jpg" alt="">
                                 </div>
                             </a>
-                            <!--end gallery-item-->
                         </div>
-                        <!--end col-md-4-->
                         <div class="col-md-4 col-sm-4">
                             <a href="assets/img/edificiodia.png" class="gallery-item image-popup">
                                 <div class="image bg-transfer">
                                     <img src="assets/img/edificiodia.png" alt="">
                                 </div>
                             </a>
-                            <!--end gallery-item-->
                         </div>
-                        <!--end col-md-4-->
                         <div class="col-md-4 col-sm-4">
                             <a href="assets/img/Co-Work.jpg" class="gallery-item image-popup">
                                 <div class="image bg-transfer">
                                     <img src="assets/img/Co-Work.jpg" alt="">
                                 </div>
                             </a>
-                            <!--end gallery-item-->
                         </div>
-                        <!--end col-md-4-->
                         <div class="col-md-4 col-sm-4">
                             <a href="assets/img/ciudadempresarial.png" class="gallery-item image-popup">
                                 <div class="image bg-transfer">
                                     <img src="assets/img/ciudadempresarial.png" alt="">
                                 </div>
                             </a>
-                            <!--end gallery-item-->
                         </div>
-                        <!--end col-md-4-->
                     </div>
-                    <!--end row-->
                 </div>
-                <!--end gallery-->
             </div>
         </div>
-        <!--end block-->
 
         
         <div class="block" id="plantas">
@@ -406,15 +345,9 @@
                 <h2>Plantas</h2>
                 <div class="row">
                     <div class="" data-scroll-reveal="enter left and move 20px">
-                        
-                       
-                        <!--/ .panel-group-->
                     </div>
-                    <!--end col-md-6-->
                     <div class="" data-scroll-reveal="enter left and move 20px">
-                        
                             <div class="pricing-boxes">
-                                <!--end col-md-3-->
                                 <div class="col-md-4 col-sm-4">
                                     <div class="price-box framed" data-scroll-reveal="enter bottom and move 20px">
                                         <h3>1 Dormitorio + 1 Baño</h3>
@@ -422,16 +355,13 @@
                                         <div class="price">Desde UF 3.070</div>
                                         <div class="values">
                                             <figure>Superficie Total 46,0 m<sup>2</sup></figure>
-                                            
                                         </div>
                                         <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#1dorm-1bano">Detalle</a>
                                         <div class="price-box-footer">
-                                            <a data-toggle="modal" data-target="#myModal" href="#myModal" class="btn btn-rounded btn-primary">Cotiza</a>
+                                            <a data-toggle="modal" data-target="#cotizar" href="#cotizar" class="btn btn-rounded btn-primary">Cotiza</a>
                                         </div>
                                     </div>
-                                    <!--end price-box-->
                                 </div>
-                                <!--end col-md-3-->
                                 <div class="col-md-4 col-sm-4">
                                     <div class="price-box framed" data-scroll-reveal="enter bottom and move 20px after 0.2s">
                                         <h3>2 Dormitorios + 2 Baños T1</h3>
@@ -439,16 +369,13 @@
                                         <div class="price">Desde UF 3.800</div>
                                         <div class="values">
                                             <figure>Superficie Total 60,5 m<sup>2</sup></figure>
-                                          
                                         </div>
                                         <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#2dorm-2banoT1">Detalle</a>
                                         <div class="price-box-footer">
-                                            <a data-toggle="modal" data-target="#myModal" href="#myModal" class="btn btn-rounded btn-primary">Cotiza</a>
+                                            <a data-toggle="modal" data-target="#cotizar" href="#cotizar" class="btn btn-rounded btn-primary">Cotiza</a>
                                         </div>
                                     </div>
-                                    <!--end price-box-->
                                 </div>
-                                <!--end col-md-3-->
                                 <div class="col-md-4 col-sm-4">
                                     <div class="price-box framed" data-scroll-reveal="enter bottom and move 20px after 0.4s">
                                         <h3>2 Dormitorios + 2 Baños T2</h3>
@@ -456,16 +383,13 @@
                                         <div class="price">Desde UF 4.180</div>
                                         <div class="values">
                                             <figure>Superficie Total 68,4 m<sup>2</sup></figure>
-                                            
                                         </div>
-                                        <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Detalle</a>
+                                        <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#2dorm-2banoT2">Detalle</a>
                                         <div class="price-box-footer">
-                                            <a data-toggle="modal" data-target="#myModal" href="#myModal" class="btn btn-rounded btn-primary">Cotiza</a>
+                                            <a data-toggle="modal" data-target="#cotizar" href="#cotizar" class="btn btn-rounded btn-primary">Cotiza</a>
                                         </div>
                                     </div>
-                                    <!--end price-box-->
                                 </div>
-                                <!--end col-md-3-->
                                 <div class="col-md-4 col-sm-4">
                                     <div class="price-box framed" data-scroll-reveal="enter bottom and move 20px after 0.4s">
                                         <h3>2 Dormitorios + 2 Baños M</h3>
@@ -473,14 +397,12 @@
                                         <div class="price">Desde UF 4.210</div>
                                         <div class="values">
                                             <figure>Superficie Total 68,8 m<sup>2</sup></figure>
-                                            
                                         </div>
-                                        <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Detalle</a>
+                                        <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#2dorm-2banoM">Detalle</a>
                                         <div class="price-box-footer">
-                                            <a data-toggle="modal" data-target="#myModal" href="#myModal" class="btn btn-rounded btn-primary">Cotiza</a>
+                                            <a data-toggle="modal" data-target="#cotizar" href="#cotizar" class="btn btn-rounded btn-primary">Cotiza</a>
                                         </div>
                                     </div>
-                                    <!--end price-box-->
                                 </div>
                                 <div class="col-md-4 col-sm-4">
                                     <div class="price-box framed" data-scroll-reveal="enter bottom and move 20px after 0.4s">
@@ -489,14 +411,12 @@
                                         <div class="price">Desde UF 4.580</div>
                                         <div class="values">
                                             <figure>Superficie Total  77,5 m<sup>2</sup></figure>
-                                            
                                         </div>
-                                        <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Detalle</a>
+                                        <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#2dorm-2banoE">Detalle</a>
                                         <div class="price-box-footer">
-                                            <a data-toggle="modal" data-target="#myModal" href="#myModal" class="btn btn-rounded btn-primary">Cotiza</a>
+                                            <a data-toggle="modal" data-target="#cotizar" href="#cotizar" class="btn btn-rounded btn-primary">Cotiza</a>
                                         </div>
                                     </div>
-                                    <!--end price-box-->
                                 </div>
                                 <div class="col-md-4 col-sm-4">
                                     <div class="price-box framed" data-scroll-reveal="enter bottom and move 20px after 0.4s">
@@ -505,50 +425,30 @@
                                         <div class="price">Desde UF 5.600</div>
                                         <div class="values">
                                             <figure>Superficie Total 95,9 m<sup>2</sup></figure>
-                                            
                                         </div>
-                                        <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Detalle</a>
+                                        <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#3dorm-3bano">Detalle</a>
                                         <div class="price-box-footer">
-                                            <a data-toggle="modal" data-target="#myModal" href="#myModal" class="btn btn-rounded btn-primary">Cotiza</a>
+                                            <a data-toggle="modal" data-target="#cotizar" href="#cotizar" class="btn btn-rounded btn-primary">Cotiza</a>
                                         </div>
                                     </div>
-                                    <!--end price-box-->
                                 </div>
-                                
-                               
                             </div>
                         </div>
-                        <!--end one-item-carousel-->
                     </div>
-                    <!--end col-md-6-->
                 </div>
-                <!--end row-->
             </div>
-            <!--end container-->
-            
-            <!--end background-wrapper-->
         </div>
-        <!--end block-->
 
-
-     
-        <!-- Feature
-============================================= -->
 <section id="feature" class="feature feature-1 background-is-dark">
     <div class="container text-center">
         <div class="row" style="margin-top: 60px;">
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="heading heading-2 text-center mb-70">
                     <h2 class="heading--title"><b>Te asesoramos en todo el proceso</b></h2>
-                    
                 </div>
-                <!-- .heading-title end -->
             </div>
-            <!-- .col-md-12 end -->
         </div>
-        <!-- .row end -->
         <div class="row" style="margin-bottom: 60px;">
-            <!-- feature Panel #1 -->
             <div class="col-xs-12 col-sm-4 col-md-3">
                 <div class="feature-panel">
                     <div class="feature--icon">
@@ -559,13 +459,11 @@
                         <p>Departamentos de 1, 2 y 3 dormitorios, adaptados a cada necesidad</p>
                     </div>
                 </div>
-                <!-- .feature-panel end -->
             </div>
-            <!-- .col-md-4 end -->
             <div class="col-xs-12 col-sm-4 col-md-3">
                 <div class="feature-panel">
                     <div class="feature--icon">
-                        <a data-toggle="modal" data-target="#myModal" href="#myModal">
+                        <a data-toggle="modal" data-target="#cotizar" href="#cotizar">
                         <img src="assets/img/icons/8.png" alt="icon img">
                     </div>
                     <div class="feature--content">
@@ -574,10 +472,7 @@
                         <p>Uno de nuestros agentes te contactará y te guiará en el proceso de compra</p></a>
                     </div>
                 </div>
-                <!-- .feature-panel end -->
             </div>
-            <!-- .col-md-4 end -->
-            <!-- feature Panel #2 -->
             <div class="col-xs-12 col-sm-4 col-md-3">
                 <div class="feature-panel">
                     <div class="feature--icon">
@@ -588,10 +483,7 @@
                         <p>Bienvenido a la mejor opción precio-calidad-ubicación del mercado.</p>
                     </div>
                 </div>
-                <!-- .feature-panel end -->
             </div>
-            <!-- .col-md-4 end -->
-            <!-- feature Panel #3 -->
             <div class="col-xs-12 col-sm-4 col-md-3">
                 <div class="feature-panel">
                     <div class="feature--icon">
@@ -603,25 +495,21 @@
                         <p>Bienvenido a la mejor opción precio-calidad-ubicación del mercado</p>
                     </div>
                 </div>
-                <!-- .feature-panel end -->
             </div>
         </div>
-        <!-- .row end -->
         <div class="background-wrapper">
             <div class="background-color" style="background-color:#232323"></div>
         </div>
     </div>
-    <!-- .container end -->
 </section>
-<!-- .feature end -->
 
 
-<div class="modal fade  come-from-modal right" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade  come-from-modal right" id="cotizar" tabindex="-1" role="dialog" aria-labelledby="cotizarLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Edificio Valle Oriente
+                <h4 class="modal-title" id="cotizarLabel">Edificio Valle Oriente
                 </h4>
             </div>
             <div class="modal-body">
@@ -644,7 +532,6 @@
                         <div class="col-md-5 col-sm-6">
                             <h3>Mapa</h3>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.1390788183808!2d-70.61712298452143!3d-33.393535580790235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c8ac7020846b%3A0xd2e62365bc9c9172!2sDel%20Valle%20610%2C%20Huechuraba%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1650414289786!5m2!1ses-419!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                           
                         </div>
                         <div class="col-md-6 col-sm-6" style="margin-left: 18px;">
                             <h3>Enviar un mensaje</h3>
@@ -654,98 +541,32 @@
                                         <div class="form-group">
                                             <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Nombre y apellido" required>
                                         </div>
-                                        <!--end form-group -->
                                     </div>
-                                    <!--end col-md-6 col-sm-6 -->
                                     <div class="col-md-6 col-sm-6">
                                         <div class="form-group">
                                             <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Email" required>
                                         </div>
-                                        <!--end form-group -->
                                     </div>
-                                    <!--end col-md-6 col-sm-6 -->
                                 </div>
-                                <!--end row -->
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <textarea class="form-control" id="form-contact-message" rows="8" name="message" placeholder="Mensaje" required></textarea>
                                         </div>
-                                        <!--end form-group -->
                                     </div>
-                                    <!--end col-md-12 -->
                                 </div>
-                                <!--end row -->
                                 <div class="form-group clearfix">
                                     <button type="submit" class="btn pull-right btn-primary btn-rounded" id="form-contact-submit">Enviar</button>
                                 </div>
-                                <!--end form-group -->
                                 <div id="form-contact-status"></div>
                             </form>
-                            <!--end form-contact -->
                         </div>
-                        <!--end col-md-6-->
                     </div>
-                    <!--end row-->
                 </div>
-                <!--end contact map-->
             </div>
-            <!--end container-->
         </div>
-        <!--end block-->
-
-
-    
     </div>
-    <!--end page-content-->
     
-
-    
-    <footer id="page-footer" class="block">
-        <div class="container" style="margin-bottom:60px ;">
-            <div class="row">
-                <div class="col-sm-6">
-                    <a class="brand" href="#inicio"> <img src="https://ucarecdn.com/e26d117d-c934-46df-837a-2cd95727f4b7/-/preview/250x400/-/quality/smart/-/format/auto/" alt="Logo" style="margin-top: 20px;"> </a> 
-
-                </div>
- <div class="col-sm-3" style="left: 160px;">
-    <h4>Email</h4>
-    <a href="mailto:contacto.valleyplaza@hispano.cl" style="color: #000;"> contacto.valleoriente@hispano.cl </a>
-</div>
-<div class="col-sm-3" style="left: 160px;">
-    <h4>Teléfono</h4>
-    <a href="tel:56997969161" style="color: #000;">+56 9 9796 9161</a>
-</div>
-</div>
- </div>
-            </div>
-            
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <p>Las imágenes, planos, ambientaciones son meramente ilustrativas y referenciales y no representan necesariamente la realidad y características finales del proyecto. Grupo Hispano podrá realizar las modificaciones que estime necesarias, sin previo aviso de conformidad a los requerimientos del proyecto. Las superficies totales y útiles informadas corresponden a aproximados lo anterior se informa en virtud de lo dispuesto en el artículo 18 de la Ley General de Urbanismo y Construcciones y el artículo 28 de la Ley 19.496.</p>
- 
-                    </div>
-                </div>
-            </div>
-            <div class="to-top">
-                <a href="#page-top" class="arrow-up framed scroll" style="margin-right:-100px">
-                    <i class="arrow_up"></i>
-                </a>
-            </div>
-        </div>
-        <!--end container-->
-        <div class="background-wrapper">
-            <div class="bg-transfer opacity-20">
-                <img src="assets/img/footer-bg.jpg" alt="">
-            </div>
-        </div>
-        <!--end background-wrapper-->
-    </footer>
-    <!--end page-footer-->
-
-</div>
-<!--end page-wrapper-->
 
 <div class="modal fade apartment-selector" id="1dorm-1bano" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
@@ -758,13 +579,11 @@
                     <h2>Desde UF 3.070</h2>
                 </div>
             </div>
-            <!--end modal-header-->
             <div class="modal-body">
                 <div class="left">
                     <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#modal-floor-plan-1" aria-controls="modal-floor-plan-1" role="tab" data-toggle="tab">Planta</a></li>
+                        <li role="presentation" class="active"><p>Planta</p></li>
                       </ul>
-                    <!--end nav-tabs-->
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane fade in active" id="modal-floor-plan-1">
                             <a href="assets/img/1_dorm.png" class="image-popup"><img src="assets/img/1_dorm.png" alt=""></a>
@@ -780,9 +599,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--end tab-content-->
                 </div>
-                <!--end left-->
                 <div class="right">
                     <dl>
                         <dt>Superficie Interior:</dt>
@@ -798,13 +615,9 @@
                         <li>Full Electric</li>
                     </dl>
                     </div>
-                <!--end right-->
             </div>
-            <!--end modal-body-->
         </div>
-        <!--end modal-content-->
     </div>
-    <!--end modal-dialog-->
 </div>
 
 <div class="modal fade apartment-selector" id="2dorm-2banoT1" tabindex="-1" role="dialog">
@@ -818,31 +631,18 @@
                     <h2>Desde UF 3.800</h2>
                 </div>
             </div>
-            <!--end modal-header-->
             <div class="modal-body">
                 <div class="left">
                     <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#modal-floor-plan-1" aria-controls="modal-floor-plan-1" role="tab" data-toggle="tab">Planta</a></li>
+                        <li role="presentation" class="active"><p>Planta</p></li>
                       </ul>
-                    <!--end nav-tabs-->
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane fade in active" id="modal-floor-plan-1">
                             <a href="assets/img/2_dorms_T1.jpg" class="image-popup"><img src="assets/img/2_dorms_T1.jpg" alt=""></a>
                             <div class="note">Click para agrandar imágen</div>
                         </div>
-                        <div role="tabpanel" class="tab-pane fade" id="modal-gallery-1">
-                            <div class="gallery">
-                                <div class="one-item-carousel" data-owl-items="1" data-owl-margin="0" data-owl-nav="0" data-owl-dots="1">
-                                    <img src="assets/img/gallery-01.jpg" alt="">
-                                    <img src="assets/img/image-video.jpg" alt="">
-                                    <img src="assets/img/gallery-02.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                    <!--end tab-content-->
                 </div>
-                <!--end left-->
                 <div class="right">
                     
                     <dl>
@@ -859,16 +659,12 @@
                         <li>Full Electric</li>
                     </dl>
                     </div>
-                <!--end right-->
             </div>
-            <!--end modal-body-->
         </div>
-        <!--end modal-content-->
     </div>
-    <!--end modal-dialog-->
 </div>
 
-<div class="modal fade apartment-selector" id="1dorm-1bano" tabindex="-1" role="dialog">
+<div class="modal fade apartment-selector" id="2dorm-2banoT2" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon_close"></i></button>
         <div class="modal-content">
@@ -878,32 +674,107 @@
                     <br>
                     <h2>Desde UF 4.180</h2>
                 </div>
-            </div>
-            <!--end modal-header-->
+            </div>>
             <div class="modal-body">
                 <div class="left">
                     <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#modal-floor-plan-1" aria-controls="modal-floor-plan-1" role="tab" data-toggle="tab">Planta</a></li>
+                        <li role="presentation" class="active"><p>Planta</p></li>
                       </ul>
-                    <!--end nav-tabs-->
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane fade in active" id="modal-floor-plan-1">
-                            <a href="assets/img/1_dorm.png" class="image-popup"><img src="assets/img/1_dorm.png" alt=""></a>
+                            <a href="assets/img/2_dorms_T2.jpg" class="image-popup"><img src="assets/img/2_dorms_T2.jpg" alt=""></a>
                             <div class="note">Click para agrandar imágen</div>
                         </div>
-                        <div role="tabpanel" class="tab-pane fade" id="modal-gallery-1">
-                            <div class="gallery">
-                                <div class="one-item-carousel" data-owl-items="1" data-owl-margin="0" data-owl-nav="0" data-owl-dots="1">
-                                    <img src="assets/img/gallery-01.jpg" alt="">
-                                    <img src="assets/img/image-video.jpg" alt="">
-                                    <img src="assets/img/gallery-02.jpg" alt="">
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="right">
+                    
+                    <dl>
+                        <dt>Superficie Interior:</dt>
+                        <dd>39,3 m2</dd>
+                        <dt>Superficie Terraza:</dt>
+                        <dd>6,7 m2</dd>
+                        <dt>Superficie Total:</dt>
+                        <dd>46,0 m<sup>2</sup></dd>
+                        <h3>Características</h3>
+                        <li>Piso Vinílico SPC</li>
+                        <li>Termopanel PVC</li>
+                        <li>Cubierta Cuarzo</li>
+                        <li>Full Electric</li>
+                    </dl>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade apartment-selector" id="2dorm-2banoM" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon_close"></i></button>
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="title">
+                    <h1 class="modal-title">2 Dormitorios + 2 Baños M</h1>
+                    <br>
+                    <h2>Desde UF 4.210</h2>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="left">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><p>Planta</p></li>
+                      </ul>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="modal-floor-plan-1">
+                            <a href="assets/img/2_dorms_M.jpg" class="image-popup"><img src="assets/img/2_dorms_M.jpg" alt=""></a>
+                            <div class="note">Click para agrandar imágen</div>
                         </div>
                     </div>
-                    <!--end tab-content-->
                 </div>
-                <!--end left-->
+                <div class="right">
+                    <dl>
+                        <dt>Superficie Interior:</dt>
+                        <dd>39,3 m2</dd>
+                        <dt>Superficie Terraza:</dt>
+                        <dd>6,7 m2</dd>
+                        <dt>Superficie Total:</dt>
+                        <dd>46,0 m<sup>2</sup></dd>
+                        <h3>Características</h3>
+                        <li>Piso Vinílico SPC</li>
+                        <li>Termopanel PVC</li>
+                        <li>Cubierta Cuarzo</li>
+                        <li>Full Electric</li>
+                    </dl>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade apartment-selector" id="2dorm-2banoE" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon_close"></i></button>
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="title">
+                    <h1 class="modal-title">2 Dormitorios + 2 Baños E</h1>
+                    <br>
+                    <h2>Desde UF 4.580</h2>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="left">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><p>Planta</p></li>
+                      </ul>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="modal-floor-plan-1">
+                            <a href="assets/img/2_dorms_E.jpg" class="image-popup"><img src="assets/img/2_dorms_E.jpg" alt=""></a>
+                            <div class="note">Click para agrandar imágen</div>
+                        </div>
+                    </div>
+                </div>
                 <div class="right">
                     <h3>Características</h3>
                     <dl>
@@ -917,51 +788,34 @@
                         <dd><strong>UF 3.070</strong></dd>
                     </dl>
                     </div>
-                <!--end right-->
             </div>
-            <!--end modal-body-->
         </div>
-        <!--end modal-content-->
     </div>
-    <!--end modal-dialog-->
 </div>
 
-<div class="modal fade apartment-selector" id="1dorm-1bano" tabindex="-1" role="dialog">
+<div class="modal fade apartment-selector" id="3dorm-3bano" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon_close"></i></button>
         <div class="modal-content">
             <div class="modal-header">
                 <div class="title">
-                    <h1 class="modal-title">2 Dormitorios + 2 Baños T2</h1>
+                    <h1 class="modal-title">3 Dormitorios + 3 Baños</h1>
                     <br>
-                    <h2>Desde UF 4.180</h2>
+                    <h2>Desde UF 5.600</h2>
                 </div>
             </div>
-            <!--end modal-header-->
             <div class="modal-body">
                 <div class="left">
                     <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#modal-floor-plan-1" aria-controls="modal-floor-plan-1" role="tab" data-toggle="tab">Planta</a></li>
+                        <li role="presentation" class="active"><p>Planta</p></li>
                       </ul>
-                    <!--end nav-tabs-->
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane fade in active" id="modal-floor-plan-1">
-                            <a href="assets/img/1_dorm.png" class="image-popup"><img src="assets/img/1_dorm.png" alt=""></a>
+                            <a href="assets/img/3_dorms.jpg" class="image-popup"><img src="assets/img/3_dorms.jpg" alt=""></a>
                             <div class="note">Click para agrandar imágen</div>
                         </div>
-                        <div role="tabpanel" class="tab-pane fade" id="modal-gallery-1">
-                            <div class="gallery">
-                                <div class="one-item-carousel" data-owl-items="1" data-owl-margin="0" data-owl-nav="0" data-owl-dots="1">
-                                    <img src="assets/img/gallery-01.jpg" alt="">
-                                    <img src="assets/img/image-video.jpg" alt="">
-                                    <img src="assets/img/gallery-02.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                    <!--end tab-content-->
                 </div>
-                <!--end left-->
                 <div class="right">
                     <h3>Características</h3>
                     <dl>
@@ -975,133 +829,12 @@
                         <dd><strong>UF 3.070</strong></dd>
                     </dl>
                     </div>
-                <!--end right-->
             </div>
-            <!--end modal-body-->
         </div>
-        <!--end modal-content-->
     </div>
-    <!--end modal-dialog-->
 </div>
 
-<div class="modal fade apartment-selector" id="1dorm-1bano" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon_close"></i></button>
-        <div class="modal-content">
-            <div class="modal-header">
-                <div class="title">
-                    <h1 class="modal-title">2 Dormitorios + 2 Baños T2</h1>
-                    <br>
-                    <h2>Desde UF 4.180</h2>
-                </div>
-            </div>
-            <!--end modal-header-->
-            <div class="modal-body">
-                <div class="left">
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#modal-floor-plan-1" aria-controls="modal-floor-plan-1" role="tab" data-toggle="tab">Planta</a></li>
-                      </ul>
-                    <!--end nav-tabs-->
-                    <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane fade in active" id="modal-floor-plan-1">
-                            <a href="assets/img/1_dorm.png" class="image-popup"><img src="assets/img/1_dorm.png" alt=""></a>
-                            <div class="note">Click para agrandar imágen</div>
-                        </div>
-                        <div role="tabpanel" class="tab-pane fade" id="modal-gallery-1">
-                            <div class="gallery">
-                                <div class="one-item-carousel" data-owl-items="1" data-owl-margin="0" data-owl-nav="0" data-owl-dots="1">
-                                    <img src="assets/img/gallery-01.jpg" alt="">
-                                    <img src="assets/img/image-video.jpg" alt="">
-                                    <img src="assets/img/gallery-02.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end tab-content-->
-                </div>
-                <!--end left-->
-                <div class="right">
-                    <h3>Características</h3>
-                    <dl>
-                        <dt>Superficie Interior:</dt>
-                        <dd>39,3 m2</dd>
-                        <dt>Superficie Terraza:</dt>
-                        <dd>6,7 m2</dd>
-                        <dt>Superficie Total:</dt>
-                        <dd>46,0 m<sup>2</sup></dd>
-                        <dt>Desde:</dt>
-                        <dd><strong>UF 3.070</strong></dd>
-                    </dl>
-                    </div>
-                <!--end right-->
-            </div>
-            <!--end modal-body-->
-        </div>
-        <!--end modal-content-->
-    </div>
-    <!--end modal-dialog-->
-</div>
 
-<div class="modal fade apartment-selector" id="1dorm-1bano" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon_close"></i></button>
-        <div class="modal-content">
-            <div class="modal-header">
-                <div class="title">
-                    <h1 class="modal-title">2 Dormitorios + 2 Baños T2</h1>
-                    <br>
-                    <h2>Desde UF 4.180</h2>
-                </div>
-            </div>
-            <!--end modal-header-->
-            <div class="modal-body">
-                <div class="left">
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#modal-floor-plan-1" aria-controls="modal-floor-plan-1" role="tab" data-toggle="tab">Planta</a></li>
-                      </ul>
-                    <!--end nav-tabs-->
-                    <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane fade in active" id="modal-floor-plan-1">
-                            <a href="assets/img/1_dorm.png" class="image-popup"><img src="assets/img/1_dorm.png" alt=""></a>
-                            <div class="note">Click para agrandar imágen</div>
-                        </div>
-                        <div role="tabpanel" class="tab-pane fade" id="modal-gallery-1">
-                            <div class="gallery">
-                                <div class="one-item-carousel" data-owl-items="1" data-owl-margin="0" data-owl-nav="0" data-owl-dots="1">
-                                    <img src="assets/img/gallery-01.jpg" alt="">
-                                    <img src="assets/img/image-video.jpg" alt="">
-                                    <img src="assets/img/gallery-02.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end tab-content-->
-                </div>
-                <!--end left-->
-                <div class="right">
-                    <h3>Características</h3>
-                    <dl>
-                        <dt>Superficie Interior:</dt>
-                        <dd>39,3 m2</dd>
-                        <dt>Superficie Terraza:</dt>
-                        <dd>6,7 m2</dd>
-                        <dt>Superficie Total:</dt>
-                        <dd>46,0 m<sup>2</sup></dd>
-                        <dt>Desde:</dt>
-                        <dd><strong>UF 3.070</strong></dd>
-                    </dl>
-                    </div>
-                <!--end right-->
-            </div>
-            <!--end modal-body-->
-        </div>
-        <!--end modal-content-->
-    </div>
-    <!--end modal-dialog-->
-</div>
-<!--end modal-->
-
-<!--end outer-wrapper-->
 <script type="text/javascript" src="assets/js/jquery-2.2.1.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
@@ -1141,3 +874,41 @@
 
 
 </body>
+
+
+<footer id="page-footer" class="block">
+    <div class="container" style="margin-bottom:60px ;">
+        <div class="row">
+            <div class="col-sm-6">
+                <a class="brand" href="#inicio"> <img src="https://ucarecdn.com/e26d117d-c934-46df-837a-2cd95727f4b7/-/preview/250x400/-/quality/smart/-/format/auto/" alt="Logo" style="margin-top: 20px;"> </a> 
+            </div>
+<div class="col-sm-3" style="left: 160px;">
+    <h4>Email</h4>
+    <a href="mailto:contacto.valleyplaza@hispano.cl" style="color: #000;"> contacto.valleoriente@hispano.cl </a>
+</div>
+<div class="col-sm-3" style="left: 160px;">
+    <h4>Teléfono</h4>
+    <a href="tel:56997969161" style="color: #000;">+56 9 9796 9161</a>
+    </div>
+    </div>
+</div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Las imágenes, planos, ambientaciones son meramente ilustrativas y referenciales y no representan necesariamente la realidad y características finales del proyecto. Grupo Hispano podrá realizar las modificaciones que estime necesarias, sin previo aviso de conformidad a los requerimientos del proyecto. Las superficies totales y útiles informadas corresponden a aproximados lo anterior se informa en virtud de lo dispuesto en el artículo 18 de la Ley General de Urbanismo y Construcciones y el artículo 28 de la Ley 19.496.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="to-top">
+            <a href="#page-top" class="arrow-up framed scroll" style="margin-right:-100px">
+                <i class="arrow_up"></i>
+            </a>
+        </div>
+    <div class="background-wrapper">
+        <div class="bg-transfer opacity-20">
+            <img src="assets/img/footer-bg.jpg" alt="">
+        </div>
+    </div>
+</footer>
